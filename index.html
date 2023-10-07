@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div
+      id="main"
+      class="bg-slate-100 flex overflow-x-hidden w-full h-screen justify-space-between"
+    >
+      <div id="left" class="w-1/2 h-screen overflow-x-hidden offset">
+        <img
+          src="https://images.unsplash.com/photo-1696321832425-a6871f33420f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+          alt=""
+          class="w-screen h-screen object-cover"
+        />
+      </div>
+      <div
+        id="right"
+        class="w-1/2 font-mono px-10 flex flex-col justify-center align-center"
+      >
+        <h3 class="text-2xl w-5/6">
+          Unlock a world of possibilities by signing up today. Join our
+          community for exclusive access to premium content and services. Your
+          journey begins here.
+        </h3>
+        <p class="pt-6 text-lg">
+          You <span class="italic">know</span> you want to
+        </p>
+        <div
+          id="form-div"
+          class="border-gray-800 rounded-2xl border-solid border-2 mt-8 w-3/4 px-10 py-5"
+        >
+          <h2 class="text-2xl font-bold pb-5">Lets do this</h2>
+          <form action="#" method="post" class="grid grid-cols-2 gap-4">
+            <div>
+              <label for="firstName" class="block">First Name</label>
+              <input
+                type="text"
+                name="firstName"
+                id=""
+                placeholder=""
+                class="block w-full"
+              />
+            </div>
+            <div>
+              <label for="lastName" class="block">Last Name</label>
+              <input
+                type="text"
+                name="lastName"
+                id=""
+                placeholder=""
+                class="block w-full"
+              />
+            </div>
+            <div>
+              <label for="email" class="block">Email</label>
+              <input
+                type="email"
+                name="email"
+                id=""
+                placeholder="xyz@gmail.com"
+                class="block w-full"
+              />
+            </div>
+            <div>
+              <label for="phone" class="block">Phone Number</label>
+              <input
+                type="tel"
+                name="phone"
+                id=""
+                placeholder=""
+                class="block w-full"
+              />
+            </div>
+            <div>
+              <label for="password" class="block">Password</label>
+              <input
+                type="password"
+                name="password"
+                id=""
+                placeholder="Enter a unique password"
+                class="block w-full"
+              />
+            </div>
+            <div>
+              <label for="confirmPassword" class="block"
+                >Re-enter Password</label
+              >
+              <input
+                type="password"
+                name="confirmPassword"
+                id=""
+                placeholder=""
+                class="block w-full"
+              />
+            </div>
+            <div class="col-span-2">
+              <button
+                class="bg-slate-700 text-white rounded py-2 px-2.5 w-full"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+        <h2 class="mt-5">
+          Already Registered? <a href="#" class="text-blue-700">Sign In</a>
+        </h2>
+      </div>
+    </div>
+  </body>
+</html>
